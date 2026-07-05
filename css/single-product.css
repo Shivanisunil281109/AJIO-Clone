@@ -1186,145 +1186,123 @@ font-weight:600;
 
 
 
-/* ===========================
-   Footer Last
-=========================== */
 
-.footer-last{
 
-    background:#2c4152;
 
-    border-top:1px solid rgba(255,255,255,.2);
 
-    padding:30px 70px;
+
+/*================ Footer Bottom ================*/
+
+ 
+
+
+/* .footer-last{
+
+    width:100%;
 
     display:flex;
 
     justify-content:space-between;
 
-    align-items:center;
-}
+    align-items:flex-start;
 
+    padding:45px 70px;
+
+    border-top:1px solid rgba(255,255,255,.35);
+
+    box-sizing:border-box;
+
+} */
+
+
+
+
+
+
+
+/* .payment-section{
+
+    width:75%;
+
+} */
+
+
+
+/* .secure-section{
+
+    width:25%;
+
+    text-align:right;
+
+} */
+
+
+/* 
 .payment-section h4,
+
 .secure-section h4{
 
     color:#fff;
 
-    font-size:14px;
+    font-size:22px;
 
-    letter-spacing:1px;
+    font-weight:500;
 
-    margin-bottom:18px;
-}
+    margin-bottom:22px;
+
+} */
 
 
-.payment-icons{
+
+/* .payment-icons{
 
     display:flex;
 
     align-items:center;
 
-    gap:20px;
+    gap:25px;
 
-    margin-top:15px;
-}
+   
 
+} */
+
+
+/* 
+
+
+.payment-box{
+
+    color:#fff;
+
+    font-size:17px;
+
+    white-space:nowrap;
+
+} */
+
+
+/* 
 .payment-icons i{
 
-    font-size:42px;
-
-    color:#ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===========================
-   Footer Last
-=========================== */
-.footer-last{
-
-    background:#2c4152;
-
-    padding:35px 80px;
-
-    display:flex;
-
-    align-items:flex-start;
-
-    width:100%;
-}
-
-.payment-section{
-
-    display:flex;
-
-    flex-direction:column;
-}
-
-.payment-icons{
-
-    display:flex;
-
-    gap:28px;
-
-    margin-top:18px;
-}
-
-.payment-icons i{
+    color:#fff;
 
     font-size:38px;
 
-    color:#fff;
-}
+} */
 
-.secure-section{
 
-    margin-left:auto;     /* Pushes it completely to the right */
+/* .secure-icons{
 
     display:flex;
 
-    flex-direction:column;
+    justify-content:flex-end;
 
-    align-items:flex-end;
-}
+} */
 
-.secure-icons{
+/* .secure-icons i{
 
-    margin-top:18px;
-}
-
-.secure-icons i{
-
-    font-size:42px;
+    font-size:40px;
 
     color:#fff;
-}
 
-
-
-
-
-.payment-section h4,
-.secure-section h4{
-
-    color:#ffffff;
-
-    font-size:14px;
-
-    letter-spacing:1px;
-
-    margin-bottom:0;
-}
+} */
