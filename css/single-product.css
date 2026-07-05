@@ -584,3 +584,280 @@ font-weight:600;
 
     font-weight:400;
 }
+
+
+
+.add-to-bag{
+
+    width:100%;
+
+    height:48px;
+
+    background:#8b6b24;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-top:22px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.add-to-bag i{
+
+    color:#fff;
+
+    font-size:18px;
+}
+
+.add-to-bag span{
+
+    color:#fff;
+
+    font-size:16px;
+
+    letter-spacing:2px;
+
+    font-weight:400px;
+}
+
+.add-to-bag:hover{
+
+    background:#7c5f1f;
+}
+
+.bag-text{
+
+    text-align:center;
+
+    margin-top:10px;
+
+    color:#777;
+
+    font-size:13px;
+
+    font-weight:500;
+
+    letter-spacing:.5px;
+}
+
+/* Wishlist Button */
+
+.wishlist-btn{
+    width:100%;
+    height:48px;
+
+    background:#fff;
+
+    border:1px solid #a67c28;
+
+    color:#a67c28;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    letter-spacing:1px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+    cursor:pointer;
+
+    margin-top:18px;
+
+    transition:.3s;
+}
+
+.wishlist-btn i{
+
+    font-size:20px;
+
+    color:#a67c28;
+}
+
+
+.wishlist-btn:hover{
+
+    background:#faf7ef;
+
+    border-color:#8d6a22;
+
+    color:#8d6a22;
+}
+
+.wishlist-btn:hover i{
+
+    color:#8d6a22;
+}
+
+.wishlist-btn{
+
+    margin-bottom:28px;
+}
+
+
+/* Product Details */
+
+
+
+
+
+
+/* Product Details Section */
+
+.product-details-section{
+
+    width:100%;
+
+    margin-top:20px;
+
+    text-align:left;
+}
+
+/* Product Details Heading */
+
+.product-details-section h2{
+
+    display:block;
+
+    width:100%;
+
+    color:#2c4152;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    margin:0 0 22px 0;
+
+    text-align:left !important;
+}
+
+
+
+.details-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    column-gap:18px;
+
+    row-gap:10px;
+
+    margin-top:7px;
+}
+
+.detail-item{
+
+    border-bottom:1px solid #d9d9d9;
+
+    padding-bottom:13px;
+}
+
+.detail-item h4{
+
+    font-size:15px;
+
+    color:#333;
+
+    font-weight:600;
+
+    margin-bottom:5px;
+}
+
+.detail-item p{
+
+    font-size:14px;
+
+    color:#555;
+
+    line-height:24px;
+}
+
+
+    
+
+.more-details{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    gap:6px;
+
+    margin-top:18px;
+
+    color:#0b6fb8;
+
+    font-size:15px;
+
+    text-decoration:none;
+
+    font-weight:500;
+}
+
+.more-details:hover{
+
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.more-details:hover{
+
+    text-decoration:underline;
+}
+
+.about-brand{
+
+    display:block;
+
+    margin-top:14px;
+
+    color:#0b6fb8;
+
+    font-size:14px;
+
+    text-decoration:underline;
+
+    font-weight:400;
+}
+
+.about-brand:hover{
+
+    color:#2c4152;
+}
