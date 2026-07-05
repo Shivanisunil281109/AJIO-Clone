@@ -397,3 +397,190 @@ font-weight:600;
 
     font-weight:600;
 }
+
+.more-colors{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    margin:18px 0;
+     color:#333;
+    font-size:18px;
+    text-decoration:underline;
+    font-weight:500;
+}
+
+
+
+.selected-color{
+
+    text-align:center;
+
+    font-size:16px;
+
+    color:#444;
+
+    margin-bottom:18px;
+
+    font-weight:400;
+}
+
+.color-selector{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+    margin-bottom:35px;
+}
+
+.arrow{
+
+    font-size:32px;
+
+    color:#b5b5b5;
+
+    cursor:pointer;
+
+    user-select:none;
+}
+
+/* Common Circle */
+.color{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    border:2px solid #d9d9d9;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+/* Selected Circle */
+.color.active{
+
+    border:2px solid #555;
+}
+
+.pink{
+
+    background:#d98aa7;
+}
+
+.maroon{
+
+    background:#6b1f29;
+}
+
+.grey{
+
+    background:#9c9c9c;
+}
+
+.beige{
+
+    background:#b8a58d;
+}
+
+.black{
+
+    background:#484848;
+}
+
+
+/* Size Section */
+.size-buttons button{
+
+    width:40px;
+    height:40px;
+
+    border:1px solid #d9d9d9;
+    border-radius:50%;
+
+    background:#fff;
+
+    color:#5a5a5a;
+
+    font-size:14px;
+    font-weight:500;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.size-buttons button:hover{
+
+    border:1px solid #2c4152;
+
+    color:#2c4152;
+}
+
+.size-buttons{
+
+    display:flex;
+    justify-content:center;
+    gap:12px;
+
+    margin-top:15px;
+    margin-bottom:22px;
+}
+
+
+
+
+.delivery-box{
+
+      width:100%;
+
+    margin-top:22px;
+
+    padding:18px;
+
+    background:#fcf8ed;
+
+    border:1px solid #f0e7d0;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+}
+
+.delivery-icon{
+
+    width:32px;
+    height:32px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#5d5d5d;
+
+    font-size:20px;
+}
+
+.delivery-text{
+
+    color:#444;
+
+    font-size:15px;
+
+    line-height:24px;
+
+    font-weight:400;
+}
