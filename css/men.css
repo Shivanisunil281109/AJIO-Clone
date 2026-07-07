@@ -681,3 +681,428 @@ margin-top:8px;
 /* .product-card:hover{
     box-shadow:0 5px 20px rgba(0,0,0,.15);
 } */
+
+
+
+
+
+
+/* ================= Footer ================= */
+
+.footer{
+
+    margin-top:80px;
+}
+
+/* Top Section */
+
+.footer-top{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    padding:46px 0;
+
+    background:#fff;
+
+    border-top:1px solid #ececec;
+}
+
+.feature{
+
+    text-align:center;
+}
+
+.feature i{
+
+    font-size:45px;
+
+    color:#2d2d2d;
+
+    margin-bottom:18px;
+}
+
+.feature h3{
+
+    font-size:18px;
+
+    font-family:Georgia, serif;
+
+    font-weight:500;
+
+    color:#2d2d2d;
+}
+
+
+
+/* ==========================
+   Footer Bottom
+========================== */
+
+.footer-bottom{
+
+    background:#2c4152;
+
+    padding:60px 70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:50px;
+}
+
+.footer-column h3{
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    margin-bottom:22px;
+
+    text-transform:uppercase;
+}
+
+.footer-column ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+}
+
+.footer-column li{
+
+    margin-bottom:14px;
+}
+
+.footer-column a{
+
+    color:#d9d9d9;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    transition:.3s;
+}
+
+.footer-column a:hover{
+
+    color:#ffffff;
+
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+/*================ Footer Bottom ================*/
+
+ 
+
+
+/* .footer-last{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    padding:45px 70px;
+
+    border-top:1px solid rgba(255,255,255,.35);
+
+    box-sizing:border-box;
+
+} */
+
+
+
+
+
+
+
+/* .payment-section{
+
+    width:75%;
+
+} */
+
+
+
+/* .secure-section{
+
+    width:25%;
+
+    text-align:right;
+
+} */
+
+
+/* 
+.payment-section h4,
+
+.secure-section h4{
+
+    color:#fff;
+
+    font-size:22px;
+
+    font-weight:500;
+
+    margin-bottom:22px;
+
+} */
+
+
+
+/* .payment-icons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+   
+
+} */
+
+
+/* 
+
+
+.payment-box{
+
+    color:#fff;
+
+    font-size:17px;
+
+    white-space:nowrap;
+
+} */
+
+
+/* 
+.payment-icons i{
+
+    color:#fff;
+
+    font-size:38px;
+
+} */
+
+
+/* .secure-icons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+} */
+
+/* .secure-icons i{
+
+    font-size:40px;
+
+    color:#fff;
+
+} */
+
+
+
+/* =========================
+   Laptop
+========================= */
+
+@media screen and (max-width:1199px){
+
+.men-page{
+
+    max-width:100%;
+
+    padding:20px;
+
+    gap:20px;
+
+}
+
+.filter-section{
+
+    width:230px;
+
+}
+
+.products-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:18px;
+
+}
+
+.product-image{
+
+    height:360px;
+
+}
+
+}
+
+
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media screen and (max-width:991px){
+
+.men-page{
+
+    flex-direction:column;
+
+    padding:20px;
+
+}
+
+.filter-section{
+
+    width:100%;
+
+}
+
+.products-section{
+
+    width:100%;
+
+}
+
+.products-toolbar{
+
+    flex-direction:column;
+
+    gap:15px;
+
+    align-items:flex-start;
+
+}
+
+.products-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.product-image{
+
+    height:340px;
+
+}
+
+.footer-top{
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+
+.footer-bottom{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+}
+
+}
+
+
+
+
+/* =========================
+   Small Mobile
+========================= */
+
+@media screen and (max-width:575px){
+
+.men-page{
+
+    padding:10px;
+
+}
+
+.breadcrumb{
+
+    font-size:12px;
+
+}
+
+.products-header h1{
+
+    font-size:24px;
+
+}
+
+.filter-title{
+
+    font-size:18px;
+
+}
+
+.product-brand{
+
+    font-size:15px;
+
+}
+
+.product-name{
+
+    font-size:14px;
+
+    line-height:22px;
+
+}
+
+.current-price{
+
+    font-size:15px;
+
+}
+
+.old-price{
+
+    font-size:12px;
+
+}
+
+.discount{
+
+    font-size:12px;
+
+}
+
+.product-image{
+
+    height:320px;
+
+}
+
+}

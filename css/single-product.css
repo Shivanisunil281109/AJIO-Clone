@@ -1306,3 +1306,30 @@ font-weight:600;
     color:#fff;
 
 } */
+
+
+
+
+/* =====================================
+      RESPONSIVE DESIGN
+===================================== */
+
+/* Laptop */
+@media screen and (max-width:1199px){
+
+}
+
+/* Tablet */
+@media screen and (max-width:991px){
+
+}
+
+/* Mobile */
+@media screen and (max-width:767px){
+
+}
+
+/* Small Mobile */
+@media screen and (max-width:575px){
+
+}
