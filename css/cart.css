@@ -1,0 +1,376 @@
+/*======================
+HEADER
+=======================*/
+
+header{
+
+    position:sticky;
+
+    top:0;
+
+    background:#fff;
+
+    z-index:1000;
+
+    border-bottom:1px solid #e5e5e5;
+
+}
+
+
+
+
+
+
+
+
+.top-navbar{
+
+    height:50px;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:0 120px;
+
+    font-size:15px;
+
+    border-bottom:1px solid #ececec;
+
+}
+
+.top-navbar a{
+
+    text-decoration:none;
+
+    color:#2c3e50;
+
+}
+
+.top-navbar button{
+
+    background:#000;
+
+    color:#fff;
+
+    border:none;
+
+    padding:11px 18px;
+
+    cursor:pointer;
+
+    font-size:13px;
+
+}
+
+
+
+
+.cart-header{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    height:80px;
+
+    padding:0 120px;
+
+}
+
+
+.logo{
+
+    flex:0 0 auto;
+
+}
+
+.logo img{
+
+    width:160px;
+
+    display:block;
+
+}
+
+
+.checkout-steps{
+
+    position:absolute;
+
+    left:43%;
+
+    transform:translateX(-50%);
+
+    display:flex;
+
+    align-items:flex-start;
+
+}
+
+.step{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    min-width:120px;
+
+    position:relative;
+
+}
+
+
+.step-line{
+
+    width:90px;
+
+    height:2px;
+
+    background:#d7d7d7;
+
+    margin-top:16px;
+
+    margin-left:-2px;
+
+    margin-right:-2px;
+
+}
+
+.step i{
+
+    width:34px;
+
+    height:34px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#e9e9e9;
+
+    color:#7d7d7d;
+
+    font-size:14px;
+
+}
+
+
+.active i{
+
+    background:#2c4152;
+
+    color:#fff;
+
+}
+
+.active span{
+
+    color:#2c4152;
+
+    font-weight:600;
+
+}
+
+
+
+.step span{
+
+    font-size:14px;
+
+    color:#777;
+
+    white-space:nowrap;
+
+}
+  
+
+
+
+
+
+/*==========================
+MAIN CONTAINER
+===========================*/
+
+.cart-container{
+
+    width:90%;
+    margin:18px auto;
+
+    display:flex;
+    gap:20px;
+
+    align-items:flex-start;
+
+}
+
+/*==========================
+LEFT
+===========================*/
+
+.cart-left{
+
+    width:72%;
+
+}
+
+/*==========================
+RIGHT
+===========================*/
+
+.cart-right{
+
+    width:28%;
+
+}
+
+/*==========================
+GIFT BANNER
+===========================*/
+
+.gift-banner{
+    height:45px;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border:1px dashed #b8a5ff;
+
+    background:#faf9ff;
+
+    padding:13px 20px;
+
+    margin-bottom:30px;
+
+}
+
+/*==========================
+LEFT PART
+===========================*/
+
+.gift-info{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gift Image */
+
+.gift-info img{
+
+    width:66px;
+
+    height:67px;
+
+    object-fit:contain;
+background-color:#AEA4E4;
+} 
+
+
+
+/* Banner Text */
+
+.gift-info h4{
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#222;
+
+}
+
+/* View Gifts */
+
+.gift-banner a{
+
+    text-decoration:none;
+
+    color:#0d6db8;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+/*==========================
+MY BAG
+===========================*/
+
+.cart-heading{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-top:2px;
+
+    margin-bottom:10px;
+
+}
+
+.cart-heading h2{
+
+    font-size:25px;
+
+    font-weight:600;
+
+    color:#222;
+
+}
+
+.cart-heading span{
+
+    color:#666;
+
+    font-size:23px;
+
+    font-weight:400;
+
+}
+
+.cart-heading a{
+
+    color:#0d6db8;
+
+    font-size:18px;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+}
