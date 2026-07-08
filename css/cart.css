@@ -415,43 +415,32 @@ MY BAG SECTION
 
 
 
-/*=========================
-PRODUCT LIST
-==========================*/
-
-.cart-products{
-
-    width:100%;
-
-}
-
-/*=========================
+/*==========================
 PRODUCT CARD
 ==========================*/
 
-.cart-item{
+.product-card{
 
     display:flex;
 
-    justify-content:space-between;
-
-    align-items:flex-start;
-
-    background:#fff;
-
-    border:1px solid #ececec;
+    gap:25px;
 
     padding:18px;
 
-    margin-bottom:18px;
+    border:1px solid #ebebeb;
+
+    margin-bottom:20px;
+
+    background:#fff;
 
 }
 
-/*=========================
+
+/*==========================
 IMAGE
 ==========================*/
 
-.item-image{
+.product-image{
 
     width:135px;
 
@@ -459,27 +448,57 @@ IMAGE
 
 }
 
-.item-image img{
+.product-image img{
 
-    width:100%;
+    width:135px;
 
-    display:block;
+    height:170px;
+
+    object-fit:cover;
 
 }
 
-/*=========================
+
+/*==========================
 DETAILS
 ==========================*/
 
-.item-details{
+.product-details{
 
     flex:1;
 
-    margin-left:25px;
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
 
 }
 
-.item-details h4{
+
+/*==========================
+TOP
+==========================*/
+
+.product-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+}
+
+
+.product-info{
+
+    width:75%;
+
+}
+
+
+.product-info h3{
 
     font-size:18px;
 
@@ -487,136 +506,1080 @@ DETAILS
 
     color:#333;
 
-    line-height:28px;
+    margin-bottom:20px;
 
-    margin-bottom:18px;
+    line-height:34px;
 
 }
 
-/*=========================
+
+/*==========================
 SIZE & QTY
 ==========================*/
 
-.item-options{
+.product-options{
 
     display:flex;
 
     align-items:center;
 
-    gap:10px;
-
-    margin-bottom:22px;
+    gap:12px;
 
 }
 
-.item-options span{
 
-    font-size:15px;
+.product-options span{
 
-    color:#666;
+    font-size:16px;
+
+    color:#555;
 
 }
 
-.item-options select{
+
+.product-options select{
 
     border:none;
 
-    font-size:15px;
-
-    background:white;
+    font-size:16px;
 
     cursor:pointer;
 
     outline:none;
 
+    background:white;
+
 }
 
-/*=========================
+
+/*==========================
 PRICE
 ==========================*/
 
-.item-price{
-
-    width:150px;
+.product-price{
 
     display:flex;
 
-    justify-content:flex-end;
+    align-items:flex-start;
 
 }
 
-.item-price span{
 
-    background:#eef6fb;
+.price-box{
 
-    border-left:4px solid #1976d2;
+    display:inline-block;
 
-    padding:8px 16px;
+    padding:8px 18px;
 
-    font-size:17px;
+    background:#eef7ff;
+
+    border-left:4px solid #0b79d0;
+
+    font-size:16px;
 
     font-weight:700;
 
-    color:#333;
+    color:#222;
 
 }
 
-/*=========================
-DELETE + WISHLIST
+
+/*==========================
+BOTTOM
 ==========================*/
 
-.item-actions{
+.product-bottom{
 
     display:flex;
 
-    justify-content:flex-end;
+    justify-content:space-between;
+
+    align-items:flex-end;
+
+    margin-top:55px;
+
+}
+
+
+/*==========================
+BUTTONS
+==========================*/
+
+.product-actions{
+
+    display:flex;
 
     gap:35px;
 
-    margin-top:45px;
-
 }
 
-.item-actions a{
+
+.product-actions a{
+
+    color:#0072bc;
 
     text-decoration:none;
 
-    color:#0074c2;
-
-    font-size:15px;
+    font-size:18px;
 
 }
 
-.item-actions a:hover{
+
+.product-actions a:hover{
 
     text-decoration:underline;
 
 }
 
-.item-actions i{
+
+.product-actions i{
+
+    margin-right:8px;
+
+}
+
+
+
+.product-right{
+
+    width:240px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-end;
+
+    justify-content:flex-start;
+
+}
+
+
+.saving{
+
+    font-size:16px;
+
+    color:#b37b1f;
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+}
+
+
+.old-price{
+
+    font-size:16px;
+
+    color:#666;
+
+    text-decoration:line-through;
+
+    margin-bottom:12px;
+
+}
+
+
+.price-box{
+
+    background:#edf6ff;
+
+    border-left:4px solid #0b79d0;
+
+    padding:10px 18px;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    color:#222;
+
+    margin-bottom:55px;   /* Space before buttons */
+
+}
+
+
+.product-actions{
+
+    display:flex;
+
+    gap:35px;
+
+    justify-content:flex-end;
+
+    width:100%;
+
+}
+
+
+.product-actions a{
+
+    color:#0072bc;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+}
+
+
+.product-actions a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+.product-actions i{
 
     margin-right:6px;
 
 }
 
+
+
+
+
+
+.wishlist-bottom{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    padding:25px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.wishlist-bottom a{
+    text-decoration:none;
+   color:#0072bc;
+    font-size:20px;
+    font-weight:500;
+}
+
+.wishlist-bottom a:hover{
+    text-decoration:underline;
+}
+
+
+
+
 /*=========================
-SECOND PRODUCT
+ORDER SUMMARY
 ==========================*/
+
+.order-summary{
+
+    width:88%;
+    
+    background:#fff;
+
+    border:1px solid #e5e5e5;
+padding:16px 16px 14px;
+    box-sizing:border-box;
+
+}
+
+/* Heading */
+
+.order-summary h3{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#202020;
+
+    padding:10px 16px;
+
+  margin:0 0 14px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Price Rows */
+
+.price-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    padding:0 16px;
+
+    margin-bottom:9px;
+
+    font-size:15px;
+
+    color:#444;
+
+   line-height:1.3;
+
+
+
+
+}
+
+.price-row a{
+
+    color:#0b6ebd;
+
+    text-decoration:none;
+
+    font-size:12px;
+
+}
+
+.discount{
+
+    color:#9c7b1c;
+
+    font-weight:600;
+
+}
+
+.free{
+
+    color:#008000;
+
+    font-weight:600;
+
+}
+
+.price-row del{
+
+    color:#444;
+
+    margin-left:4px;
+
+}
+
+/* Order Total */
+
+.total-section{
+
+    border-top:1px solid #e5e5e5;
+
+    margin-top:10px;
+
+    padding-top:12px;
+
+}
+
+.total-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 16px 16px;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    color:#202020;
+
+}
+
+/* Proceed Button */
+
+.shipping-btn{
+
+    width:100%;
+
+    height:50px;
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    background:#8d6a20;
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:.4px;
+ cursor:pointer;
+
+}
+
+.shipping-btn:hover{
+
+    background:#7a5919;
+
+}
+
+
+
+/*=========================
+APPLY COUPON
+==========================*/
+
+/*=========================
+APPLY COUPON
+==========================*/
+
+.coupon-box{
+
+    margin-top:18px;
+
+    border:1px dashed #d9c9a7;
+
+    background:#fff;
+
+    padding:16px;
+
+    box-sizing:border-box;
+ width:88%;
+ min-height: 420px;
+}
+
+/* Heading */
+
+.coupon-box h3{
+
+    margin:0 0 18px;
+
+    font-size:18px;
+
+    color:#202020;
+
+    font-weight:700;
+
+}
+
+/* Input */
+
+.coupon-input{
+
+    display:flex;
+
+    margin-bottom:24px;
+
+}
+
+.coupon-input input{
+
+    flex:1;
+
+    height:40px;
+
+    border:1px solid #e2e2e2;
+
+    outline:none;
+
+    padding-left:12px;
+
+    font-size:14px;
+
+}
+
+.coupon-input button{
+
+    width:72px;
+
+    border:none;
+
+    background:#f3f3f3;
+
+    color:#555;
+
+    font-size:14px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+/* Applicable Coupons */
+
+.coupon-box h4{
+
+    margin:0 0 18px;
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+/* Coupon */
+
+.coupon-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:12px;
+
+}
+
+.coupon-item input{
+
+    margin-top:4px;
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.coupon-details{
+
+    flex:1;
+
+}
 
 .saving{
 
-    color:#9b6c16;
+    margin:0;
+
+    color:#202020;
 
     font-size:15px;
 
-    margin-bottom:10px;
+    font-weight:700;
 
 }
 
-.old-price{
+.saving span{
+
+    color:#9d7a2d;
+
+}
+
+.coupon-details h5{
+
+    margin:6px 0;
 
     font-size:15px;
+
+    color:#202020;
+
+}
+
+.offer{
+
+    margin:0;
+
+    color:#555;
+
+    font-size:14px;
+
+    line-height:22px;
+
+}
+
+.coupon-details a{
+
+    display:inline-block;
+
+    margin-top:8px;
+
+    color:#0b6ebd;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+}
+
+.coupon-details a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+
+
+
+/*=========================
+GST BENEFITS
+==========================*/
+
+.gst-section{
+
+    margin-top:10px;
+ width:88%;
+    border:1px solid #e8e8e8;
+
+    background:#fff;
+
+    padding:16px;
+
+    box-sizing:border-box;
+
+}
+
+.gst-section h4{
+
+    font-size:17px;
+
+    color:#222;
+
+    font-weight:700;
+ /* margin-top:4px; */
+    margin-bottom:18px;
+  margin:0 0 10px 0;
+}
+
+.gst-check{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    color:#333;
+
+}
+
+.gst-check input{
+
+    width:18px;
+
+    height:18px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+/*=========================
+RETURN / REFUND POLICY
+==========================*/
+
+.refund-section{
+
+    margin-top:20px;
+     width:88%;
+    border:1px solid #e8e8e8;
+
+    background:#fff;
+
+    padding:16px;
+
+    box-sizing:border-box;
+
+}
+
+.refund-section h4{
+
+    font-size:16px;
+
+    font-weight:750;
+
+    color:#222;
+
+    margin:3px 0 12px;
+  margin-bottom:8px;
+
+}
+
+.refund-section p{
+
+    font-size:14px;
 
     color:#666;
 
+    line-height:22px;
+margin:0 0 10px;
+} 
+
+.refund-section a{
+
+    display:inline-block;
+
+    margin-top:8px;
+
+    color:#619DBC;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:600;
+
 }
+
+
+
+.refund-section a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= Footer ================= */
+
+.footer{
+
+    margin-top:5px;
+}
+
+/* Top Section */
+
+.footer-top{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    padding:50px 0;
+
+    background:#fff;
+
+    /* border-top:1px solid #ececec; */
+}
+
+.feature{
+
+    text-align:center;
+}
+
+.feature i{
+
+    font-size:45px;
+
+    color:#2d2d2d;
+
+    margin-bottom:18px;
+}
+
+.feature h3{
+
+    font-size:18px;
+
+    font-family:Georgia, serif;
+
+    font-weight:500;
+
+    color:#2d2d2d;
+}
+
+
+
+/* ==========================
+   Footer Bottom
+========================== */
+
+.footer-bottom{
+
+    background:#2c4152;
+margin-top: 0;
+    padding:35px 70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-column h3{
+
+    color:#ffffff;
+ margin-top:3px;
+    font-size:18px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+    text-transform:uppercase;
+}
+
+.footer-column ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+}
+
+.footer-column li{
+
+    margin-bottom:14px;
+}
+
+.footer-column a{
+
+    color:#d9d9d9;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    transition:.3s;
+}
+
+.footer-column a:hover{
+
+    color:#ffffff;
+
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+/*================ Footer Bottom ================*/
+
+ 
+
+
+/* .footer-last{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    padding:45px 70px;
+
+    border-top:1px solid rgba(255,255,255,.35);
+
+    box-sizing:border-box;
+
+} */
+
+
+
+
+
+
+
+/* .payment-section{
+
+    width:75%;
+
+} */
+
+
+
+/* .secure-section{
+
+    width:25%;
+
+    text-align:right;
+
+} */
+
+
+/* 
+.payment-section h4,
+
+.secure-section h4{
+
+    color:#fff;
+
+    font-size:22px;
+
+    font-weight:500;
+
+    margin-bottom:22px;
+
+} */
+
+
+
+/* .payment-icons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+   
+
+} */
+
+
+/* 
+
+
+.payment-box{
+
+    color:#fff;
+
+    font-size:17px;
+
+    white-space:nowrap;
+
+} */
+
+
+/* 
+.payment-icons i{
+
+    color:#fff;
+
+    font-size:38px;
+
+} */
+
+
+/* .secure-icons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+} */
+
+/* .secure-icons i{
+
+    font-size:40px;
+
+    color:#fff;
+
+} */
+
+
+
+
+
+
+
+
+
+
+/*==================================
+SERVICE STRIP
+===================================*/
+
+.service-strip{
+
+    width:100%;
+
+    height:100px;
+
+    border-top:3px solid #e8e8e8;
+
+    border-bottom:3px solid #e8e8e8;
+
+    background:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:55px;
+
+    margin-top:40px;
+
+}
+
+.service-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+.service-box i{
+
+    font-size:26px;
+
+    color:#9a6d19;
+
+}
+
+.service-box span{
+
+    font-size:16px;
+
+    color:#9a6d19;
+
+    font-weight:500;
+
+    text-transform:uppercase;
+
+}
+
+
+
+
+
+
+
+
+
