@@ -2506,3 +2506,115 @@ MOBILE VIEW
 
 }
 }
+
+
+/*==========================
+BANK OFFERS
+==========================*/
+
+.offers-section{
+
+    width:90%;
+
+    margin:30px auto;
+
+}
+
+/* Offer Card */
+
+.offer-card{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:18px 22px;
+
+    border:1px solid #e5e5e5;
+
+    background:#fff;
+
+    margin-bottom:12px;
+
+}
+
+/* Bank Logo */
+
+.offer-card img{
+
+    width:52px;
+
+    height:52px;
+
+    object-fit:contain;
+
+}
+
+/* Offer Text */
+
+.offer-content{
+
+    flex:1;
+
+    margin-left:18px;
+
+}
+
+.offer-content h4{
+
+    font-size:16px;
+
+    color:#222;
+
+    margin-bottom:6px;
+
+    font-weight:600;
+
+}
+
+.offer-content p{
+
+    font-size:14px;
+
+    color:#777;
+
+}
+
+/* T&C */
+
+.offer-card a{
+
+    text-decoration:none;
+
+    color:#0b6ebd;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+/* View More */
+
+.view-more{
+
+    text-align:center;
+
+    margin-top:16px;
+
+}
+
+.view-more a{
+
+    text-decoration:none;
+
+    color:#0b6ebd;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+

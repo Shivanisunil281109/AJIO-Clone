@@ -1,0 +1,763 @@
+header{
+
+    position:sticky;
+
+    top:0;
+
+    background:#fff;
+
+    z-index:1000;
+
+    border-bottom:1px solid #e5e5e5;
+
+}
+
+
+
+
+.cart-header{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    height:80px;
+
+    padding:0 120px;
+
+}
+
+
+.logo{
+
+    flex:0 0 auto;
+
+}
+
+.logo img{
+
+    width:150px;
+
+    display:block;
+
+}
+
+
+
+
+
+
+
+.payment-features{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:35px;
+
+    margin-left:8px;
+
+    flex:1;
+
+}
+
+
+.feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    white-space:nowrap;
+
+}
+
+.feature i{
+
+    font-size:20px;
+
+    color:#9b7a2f;
+
+}
+
+
+.feature span{
+
+    font-size:15px;
+
+    font-weight:500;
+
+    color:#8b6d2f;
+
+    text-transform:uppercase;
+
+}
+
+
+.feature:hover{
+
+    cursor:pointer;
+
+}
+
+.feature:hover span{
+
+    color:#000;
+
+}
+
+.feature:hover i{
+
+    color:#000;
+
+}
+
+
+
+
+/*==========================
+BANK OFFERS
+==========================*/
+/*=========================
+TOP SECTION
+==========================*/
+
+/* =========================
+   TOP PAYMENT SECTION
+========================= */
+
+.payment-top{
+    width:80%;
+    margin:30px auto;
+    display:grid;
+    grid-template-columns:74% 26%;
+    gap:22px;
+    align-items:start;
+}
+
+/* Offer Box */
+
+.offers-box{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    
+    background:#fff;
+border:1px dashed  #9b7a2f;
+
+}
+
+.offer-item{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:13px;
+    min-height:73px;
+}
+
+.offer-item:first-child{
+    border-right:1px dotted #d7c8a2;
+}
+
+/* Logo */
+
+.offer-logo{
+    width:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+}
+
+.offer-logo img{
+    width:42px;
+    height:auto;
+    display:block;
+}
+
+/* Text */
+
+.offer-text{
+    flex:1;
+}
+
+.offer-text p{
+    margin:0;
+    font-size:14px;
+    color:#444;
+    line-height:22px;
+}
+
+.offer-text a{
+    display:inline-block;
+    margin-top:5px;
+    color:#0b6ebd;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:600;
+}
+
+.view-more{
+    display:inline-block;
+    margin-top:12px;
+    color:#0b6ebd;
+    font-size:14px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+
+/* T&C Link */
+
+.tc-link{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    margin-top:6px;
+    color:#0b6ebd;
+    font-size:13px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.tc-link img{
+    width:17px;
+    height:17px;
+    object-fit:contain;
+}
+
+.tc-link:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+ .redeem-section{
+    width:100%;
+
+    margin-top:3px;
+
+    display:grid;
+
+    grid-template-columns:280px 1fr 240px;
+
+    align-items:center;
+
+    column-gap:25px;
+
+    padding:10px 0;
+
+    border-top:1px solid #efefef;
+    border-bottom:1px solid #efefef;
+} 
+
+
+
+.redeem-title h3{
+    margin:0;
+
+    font-size:19px;
+
+    font-weight:700;
+
+    color:#222;
+}
+
+
+.redeem-text{
+    text-align:center;
+}
+
+.redeem-text p{
+
+    margin:0;
+
+    font-size:15px;
+
+    color:#333;
+
+    font-weight:600;
+}
+
+
+
+.redeem-btn{
+
+    display:flex;
+
+    justify-content:flex-end;
+}
+
+
+
+
+.redeem-btn button{
+
+    width:240px;
+
+    height:40px;
+
+    border:none;
+
+    background:#9b7a2f;
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+}
+
+.redeem-btn button:hover{
+
+    background:#866626;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Center */
+
+.otp-text{
+    text-align:center;
+    font-size:17px;
+    color:#333;
+    font-weight:600;
+}
+
+/* Right */
+
+.otp-btn{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+
+    /* Space from right like AJIO */
+    padding-right:4px;
+}
+
+.otp-btn button{
+
+    width:240px;
+    height:40px;
+
+    border:none;
+    outline:none;
+
+    background:#9b7a2f;
+
+    color:#fff;
+
+    font-size:15px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.otp-btn button:hover{
+    background:#866626;
+}
+
+
+
+
+
+
+
+/*=====================================
+Gift Card Section
+=====================================*/
+
+.gift-card-section{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 15px;
+   
+    border-bottom:1px solid #ececec;
+}
+
+/* Left */
+
+.gift-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+}
+
+/* SVG */
+
+.gift-left img{
+
+    width:26px;
+
+    height:26px;
+
+    object-fit:contain;
+}
+
+/* Text */
+
+.gift-text{
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+.gift-text h4{
+
+    margin:0;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    color:#222;
+}
+
+.gift-text p{
+
+    margin-top:4px;
+
+    font-size:14px;
+
+    color:#666;
+}
+
+/* Right */
+
+.gift-right a{
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#0b6ebd;
+}
+
+.gift-right a:hover{
+
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+/*==============================
+Payment Mode
+==============================*/
+
+.payment-mode-section{
+
+    margin-top:35px;
+
+}
+
+.payment-heading{
+
+    font-size:25px;
+
+    font-weight:700;
+
+    color:#222;
+
+    margin-bottom:18px;
+}
+
+/* Main Box */
+
+.payment-container{
+
+    display:grid;
+
+    grid-template-columns:200px 1fr;
+
+    border:1px solid #dddddd;
+
+    background:#fff;
+
+}
+
+/* Sidebar */
+
+.payment-sidebar{
+
+    border-right:1px solid #dddddd;
+
+    background:#fafafa;
+}
+
+.payment-tab{
+
+    padding:18px 18px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    color:#222;
+
+    border-bottom:1px solid #ececec;
+
+    cursor:pointer;
+}
+
+.payment-tab.active{
+
+    background:#f8f3e8;
+
+    color:#9b7a2f;
+
+    font-weight:700;
+}
+
+.payment-tab:hover{
+
+    background:#f8f8f8;
+}
+
+/* Form */
+
+.payment-form{
+
+    padding:25px;
+}
+
+.payment-form h3{
+
+    font-size:21px;
+
+    margin-bottom:22px;
+
+    color:#222;
+}
+
+/* Labels */
+
+.form-group{
+
+    margin-bottom:22px;
+}
+
+.form-group label{
+
+    display:block;
+
+    font-size:15px;
+
+    margin-bottom:8px;
+
+    color:#333;
+}
+
+.form-group span{
+
+    color:red;
+}
+
+.form-group input{
+
+    width:380px;
+
+    height:42px;
+
+    border:1px solid #d6d6d6;
+
+    padding:0 12px;
+
+    font-size:15px;
+
+    outline:none;
+}
+
+/* Bottom */
+
+.card-bottom{
+
+    display:flex;
+
+    gap:30px;
+
+    margin-bottom:30px;
+}
+
+.expiry label,
+
+.cvv label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-size:15px;
+}
+
+.expiry-select{
+
+    display:flex;
+
+    gap:12px;
+}
+
+.expiry-select select{
+
+    width:110px;
+
+    height:42px;
+
+    border:1px solid #d6d6d6;
+
+    padding-left:10px;
+}
+
+.cvv input{
+
+    width:110px;
+
+    height:42px;
+
+    border:1px solid #d6d6d6;
+
+    padding-left:10px;
+}
+
+
+
+
+/* Payment Button */
+
+.pay-btn{
+
+    width:240px;
+    height:42px;
+
+    background:#9b7a2f;
+    color:#fff;
+
+    border:none;
+
+    font-size:15px;
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.pay-btn:hover{
+
+    background:#87661d;
+
+}
+
+/* Terms & Conditions */
+
+.payment-note{
+
+    margin-top:12px;
+
+    font-size:12px;
+
+    color:#555;
+
+    line-height:18px;
+}
+
+.payment-note a{
+
+    color:#0b6ebd;
+
+    text-decoration:none;
+
+    font-weight:500;
+}
+
+.payment-note a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+
+
+
+
+
+
+
+.expiry-month select,
+.expiry-year select{
+
+    width:112px;
+    height:32px;
+
+    border:1px solid #d8d8d8;
+    background:#fff;
+
+    font-size:14px;
+    color:#333;
+
+    padding:0 10px;
+
+    outline:none;
+    cursor:pointer;
+
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23666' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;
+    background-position:right 10px center;
+}
+
+.expiry-month select:focus,
+.expiry-year select:focus{
+    border-color:#a37b23;
+}
