@@ -252,60 +252,226 @@
 
         </div>
 
+
+
+
+
+
+
+
         <!-- RIGHT FORM -->
 
-        <div class="payment-form">
+
+<div class="payment-form">
 
             <h3>Add New Card</h3>
 
+            <!-- Card Number -->
+
             <div class="form-group">
 
-                <label>Card Number <span>*</span></label>
+                <label>
+                    Card Number <span>*</span>
+                </label>
 
                 <input type="text">
 
             </div>
 
+            <!-- Name -->
+
             <div class="form-group">
 
-                <label>Name on Card <span>*</span></label>
+                <label>
+                    Name on Card <span>*</span>
+                </label>
 
                 <input type="text">
 
-        </div>
+            </div>
 
-            
+            <!-- Expiry + CVV -->
+
+            <div class="card-bottom">
+
+                <!-- Expiry -->
+
+                <div class="expiry">
+
+                    <label>
+                        Expiration Date <span>*</span>
+                    </label>
+
+                    <div class="expiry-select">
+
+                        <!-- Month -->
+
+                        <select>
+
+                            <option selected disabled>Month</option>
+
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+
+                        </select>
+
+                        <!-- Year -->
+
+                        <select>
+
+                            <option selected disabled>Year</option>
+
+                            <option>2026</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                            <option>2031</option>
+                            <option>2032</option>
+                            <option>2033</option>
+                            <option>2034</option>
+                            <option>2035</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <!-- CVV -->
+
+                <div class="cvv">
+
+                    <label>
+                        CVV <span>*</span>
+                    </label>
+
+                    <input type="password" maxlength="3">
+
+                </div>
+
+            </div>
+
+            <!-- Button -->
+
+            <button class="pay-btn">
+
+                PAY ₹1388.00 SECURELY
+
+            </button>
+
+            <!-- Terms -->
+
+            <p class="payment-note">
+
+                By placing this order, you agree to AJIO's
+
+                <a href="#">T&C</a>
+
+            </p>
+
+        </div>
 
     </div>
 
+ </div>
+        
 
 
 
-             </div>
+
+
+
+
+
+
+
+
+
 
 
 </div>
 
+  <!-- =========================
+      ORDER SUMMARY
+  ========================= -->
 
+   <div class="order-summary">
 
+    <h2>Order Summary</h2>
 
+    <div class="summary-row">
+        <span>Bag total</span>
+        <span>₹ 2198.00</span>
+    </div>
 
+    <div class="summary-row">
+        <span>Bag Discount</span>
+        <span class="discount">- ₹ 833.00</span>
+    </div>
 
+    <div class="summary-row">
 
+        <span>
+            Convenience Fee
+            <a href="#">What's this?</a>
+        </span>
 
-<!-- RIGHT -->
-
-    <div class="order-summary">
-
-    
-    
-    
-        <!-- Your Order Summary -->
+        <span></span>
 
     </div>
 
+    <div class="summary-row sub-row">
 
+        <span>Delivery Fee</span>
 
+        <span>
+
+            <span class="free">Free</span>
+
+            <del>₹49</del>
+
+        </span>
+
+    </div>
+
+    <div class="summary-row sub-row">
+
+        <span>Platform Fee</span>
+
+        <span>₹23</span>
+
+    </div>
+
+    <hr>
+
+    <div class="summary-row total">
+
+        <span>Order Total</span>
+
+        <span>₹1388.00</span>
+
+    </div>
+
+    <div class="summary-row payable">
+
+        <span>Amount Payable</span>
+
+        <span>₹1388.00</span>
+
+    </div>
+
+   </div>
 
 
 
