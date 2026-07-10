@@ -801,7 +801,7 @@ font-weight:500;
 
 .order-summary{
 
-    width:290px;
+    width:280px;
 
     background:#fafafa;
 
@@ -1066,4 +1066,514 @@ background-color:white;
     height:39px;
 background-color: white;
     width:auto;
+}
+
+
+
+
+
+
+
+
+/*====================================
+        TABLET VIEW
+=====================================*/
+
+/*=========================================
+        TABLET VIEW (1024px)
+=========================================*/
+
+@media screen and (max-width:1024px){
+
+    /* Main Layout */
+
+    .payment-top{
+        display:flex;
+        flex-direction:column;
+        gap:30px;
+        padding:0 20px;
+    }
+
+    .payment-left{
+        width:100%;
+    }
+
+    /* Order Summary */
+
+    .order-summary{
+        width:100%;
+        margin:0;
+        margin-top:25px;
+        box-sizing:border-box;
+        order:2;
+    }
+
+    /* Offer Section */
+
+    .offers-box{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .offer-item{
+        width:100%;
+    }
+
+    /* Redeem Section */
+
+    .redeem-section{
+        display:grid;
+        grid-template-columns:1fr;
+        row-gap:15px;
+        text-align:center;
+    }
+
+    .redeem-title,
+    .otp-text,
+    .otp-btn{
+        width:100%;
+    }
+
+    .otp-btn button{
+        width:240px;
+    }
+
+    /* Gift Card */
+
+        /* Gift Card */
+
+    .gift-card-section{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .gift-left{
+        width:100%;
+    }
+
+    .gift-right{
+        width:100%;
+        text-align:left;
+    }
+
+    /* Payment Mode */
+
+    .payment-container{
+        grid-template-columns:180px 1fr;
+    }
+
+    .payment-sidebar{
+        width:180px;
+    }
+
+    .payment-form{
+        padding:20px;
+    }
+
+    .payment-form input{
+        width:100%;
+        max-width:100%;
+        box-sizing:border-box;
+    }
+
+    /* Card Bottom */
+
+    .card-bottom{
+        display:flex;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    .expiry-select{
+        display:flex;
+        gap:10px;
+    }
+
+    .expiry-select select{
+        width:110px;
+    }
+
+    .cvv input{
+        width:110px;
+    }
+
+    /* Payment Button */
+
+    .pay-btn{
+        width:240px;
+    }
+
+    /* Footer */
+
+    .payment-footer{
+        padding:30px 20px;
+    }
+
+    .footer-container{
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-start;
+        gap:30px;
+    }
+
+    .footer-left,
+    .footer-right{
+        width:48%;
+    }
+
+    .payment-icons{
+        display:flex;
+        flex-wrap:wrap;
+        gap:15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================================
+        MOBILE VIEW
+=====================================*/
+
+/* @media (max-width:768px){
+
+.payment-container{
+
+    grid-template-columns:1fr;
+}
+
+.payment-sidebar{
+
+    border-right:none;
+
+    border-bottom:1px solid #ddd;
+}
+
+.payment-tab{
+
+    padding:15px;
+}
+
+.card-bottom{
+
+    flex-direction:column;
+
+    gap:20px;
+}
+
+.expiry-select{
+
+    display:flex;
+
+    gap:10px;
+}
+
+.expiry-select select{
+
+    width:120px;
+}
+
+.cvv input{
+
+    width:120px;
+}
+
+.pay-btn{
+
+    width:100%;
+}
+
+.payment-note{
+
+    text-align:center;
+}
+
+.payment-heading{
+
+    font-size:22px;
+}
+
+.offers-box{
+
+    flex-direction:column;
+}
+
+.offer-item{
+
+    width:100%;
+}
+
+.gift-card-section{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:20px;
+}
+
+.gift-right{
+
+    margin-left:50px;
+}
+
+.order-summary{
+
+    width:100%;
+}
+
+.footer-container{
+
+    text-align:center;
+
+    align-items:center;
+}
+
+.payment-icons{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+}
+
+.footer-right{
+
+    text-align:center;
+}
+
+} */
+
+
+
+
+
+
+/*====================================
+        MOBILE VIEW (768px)
+====================================*/
+
+@media screen and (max-width:768px){
+
+/* Main Container */
+
+.payment-top{
+    display:flex;
+    flex-direction:column;
+    padding:0 12px;
+    gap:20px;
+}
+
+/* Left Content */
+
+.payment-left{
+    width:100%;
+}
+
+/* Offers */
+
+.offers-box{
+    display:flex;
+    flex-direction:column;
+     width:150%;
+}
+
+
+.offer-item{
+    width:100%;
+    padding:18px;
+}
+
+.offer-logo img{
+    width:42px;
+}
+
+/* Redeem */
+
+.redeem-section{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    text-align:center;
+}
+
+.otp-btn button{
+    width:100%;
+}
+
+/* Gift Card */
+
+.gift-card-section{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.gift-left{
+    width:100%;
+}
+
+.gift-right{
+    width:100%;
+    text-align:left;
+}
+
+/* Payment Box */
+
+.payment-container{
+    display:flex;
+    flex-direction:column;
+}
+
+/* Sidebar */
+
+.payment-sidebar{
+    width:100%;
+    border-right:none;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.payment-tab{
+    text-align:center;
+    padding:15px;
+}
+
+/* Form */
+
+.payment-form{
+    width:100%;
+    padding:18px;
+    box-sizing:border-box;
+}
+
+/* Heading */
+
+.payment-form h3{
+    font-size:22px;
+}
+
+/* Inputs */
+
+.form-group input{
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+}
+
+/* Expiry + CVV */
+
+.card-bottom{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.expiry{
+    width:100%;
+}
+
+.expiry-select{
+    display:flex;
+    gap:10px;
+}
+
+.expiry-select select{
+    width:48%;
+}
+
+.cvv{
+    width:100%;
+}
+
+.cvv input{
+    width:100%;
+    box-sizing:border-box;
+}
+
+/* Button */
+
+.pay-btn{
+    width:100%;
+}
+
+/* Order Summary */
+
+.order-summary{
+    width:100%;
+    margin-top:25px;
+    margin-left:0;
+    order:2;
+}
+
+/* Footer */
+
+.payment-footer{
+    padding:30px 15px;
+    width: 150%;
+}
+
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.footer-left,
+.footer-right{
+    width:100%;
+    text-align:center;
+}
+
+.payment-icons{
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.payment-icons img{
+    height:28px;
+}
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+.cart-header{
+    flex-direction:column;
+    gap:15px;
+    padding:15px;
+}
+
+.cart-logo img{
+    width:140px;
+}
+
+.cart-features{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.cart-features span{
+    font-size:12px;
+}
+
 }
