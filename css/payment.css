@@ -806,9 +806,9 @@ font-weight:500;
     background:#fafafa;
 
     border:1px solid #ececec;
-
+  
     padding:18px;
-
+margin-left: 20px;
     box-sizing:border-box;
 
     height:fit-content;
@@ -917,11 +917,153 @@ font-weight:500;
 
 .payable{
 
-    font-size:18px;
+    font-size:17px;
 
     font-weight:700;
 
     color:#222;
 
     margin-top:12px;
+}
+
+
+
+
+
+/*==================================
+            FOOTER
+==================================*/
+
+.payment-footer{
+
+    width:100%;
+ min-height:130px;
+    background:#2C4152;
+
+    margin-top:60px;
+
+   padding:19px 0 19px;
+}
+
+/* Main Container */
+
+.footer-container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin: 0 auto;
+  padding:0 25px;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-end;
+}
+
+/* Headings */
+
+/* .footer-left h4,
+.footer-right h4{
+
+    color:#ffffff;
+
+    font-size:20px;
+
+    font-weight:500;
+
+    margin-bottom:22px;
+} */
+
+
+
+.footer-right h4{
+
+    color:#fff;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    margin:18px 0 12px;          /* Reduced margin */
+}
+
+
+.footer-left h4{
+
+    color:#fff;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    margin:18px 0 12px;          /* Reduced margin */
+}
+
+
+
+html,
+body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Payment Icons */
+
+.payment-icons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+}
+
+.payment-icons img{
+
+    height:34px;
+
+    width:auto;
+ object-fit:contain;
+    cursor:pointer;
+background-color:white;
+    transition:.3s;
+}
+
+.payment-icons img:hover{
+
+    transition:.3s;
+    transform:scale(1.05);
+}
+
+/* SSL */
+
+.footer-right{
+
+    text-align:right;
+
+}
+
+.footer-right img{
+
+    height:39px;
+background-color: white;
+    width:auto;
 }
