@@ -10,15 +10,7 @@
 
 
 
-html,
-body{
-    margin:0;
-    padding:0;
-}
 
-body{
-    overflow-x:hidden;
-}
 
 /* Top Section */
 
@@ -36,12 +28,6 @@ body{
 
     /* border-top:1px solid #ececec; */
 }
-
-
-
-
-
-
 
 
 
@@ -341,3 +327,12 @@ SERVICE STRIP
 
 
 
+html,
+body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow-x:hidden;
+}
