@@ -998,7 +998,7 @@ SAVE BUTTON
     justify-content:space-around;
 
     align-items:center;
-  padding:5px 0;
+  padding:25px 0;
     /* padding:50px 0; */
 
     background:#fff;
@@ -1009,6 +1009,10 @@ SAVE BUTTON
 
 
 
+.feature{
+
+    text-align:center;
+}
 
 
 
@@ -1021,7 +1025,7 @@ SAVE BUTTON
 
     color:#2d2d2d;
 
-    margin-bottom:10px;
+    margin-bottom:18px;
 }
 
 .feature h3{
@@ -1044,7 +1048,7 @@ SAVE BUTTON
 
     background:#2c4152;
 margin-top: 0;
-    padding:30px 60px;
+    padding:40px 50px;
 
     display:grid;
 
@@ -1060,7 +1064,7 @@ margin-top: 0;
 
     color:#ffffff;
  margin-top:3px;
-    font-size:18px;
+    font-size:25px;
 
     font-weight:600;
 
@@ -1093,7 +1097,7 @@ margin-top: 0;
 
     text-decoration:none;
 
-    font-size:15px;
+    font-size:17px;
 
     transition:.3s;
 }
@@ -1185,3 +1189,132 @@ body{
 body{
     overflow-x:hidden;
 }
+
+
+
+/*=====================================
+TABLET VIEW
+======================================*/
+
+@media (max-width:1024px){
+
+/* Header */
+
+.top-navbar{
+    padding:10px 40px;
+    gap:18px;
+    font-size:14px;
+}
+
+.navbar{
+    padding:12px 40px;
+}
+
+.logo img{
+    width:150px;
+}
+
+.nav-links{
+    gap:18px;
+    font-size:16px;
+}
+
+.menu-item a{
+    font-size:17px;
+}
+
+.nav-right{
+    padding-right:0;
+}
+
+.nav-right input{
+    width:180px;
+}
+
+/* Mega Menu */
+
+.mega-menu{
+    width:100%;
+    left:0;
+}
+
+.menu-content{
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+/* Main */
+
+.profile-container{
+    width:95%;
+    gap:20px;
+}
+
+/* Sidebar */
+
+.profile-sidebar{
+    width:250px;
+}
+
+/* Right */
+
+.personal-information{
+    padding:25px;
+}
+
+.personal-information h2{
+    font-size:30px;
+}
+
+.form-row{
+    gap:25px;
+}
+
+.password-row{
+    gap:20px;
+}
+
+.password-heading{
+    font-size:28px;
+}
+
+/* Footer */
+
+
+
+.footer{
+    width:100%;
+    margin-top:40px;
+    clear:both;
+}
+.footer-bottom{
+    width:100%;
+    box-sizing:border-box;
+    background:#2c4152;
+    padding:35px 50px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:35px;
+}
+
+
+.footer-top{
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.service-strip{
+    flex-wrap:wrap;
+    height:auto;
+    padding:20px;
+}
+
+} 
+
+
+
+
+
+
+
+
