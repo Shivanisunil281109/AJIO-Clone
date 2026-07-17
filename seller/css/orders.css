@@ -1,0 +1,848 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/*=========================
+Dashboard Layout
+=========================*/
+
+.dashboard-container{
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+/*=========================
+Sidebar
+=========================*/
+
+.sidebar{
+
+    width:260px;
+
+    background:#111b29;
+
+}
+
+/*=========================
+Main Content
+=========================*/
+
+.main-content{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+
+/*=========================
+Header
+=========================*/
+
+.top-header{
+
+    height:75px;
+
+    background:#ffffff;
+
+    border-bottom:1px solid #e8e8e8;
+
+}
+
+/*=========================
+Dashboard Content
+=========================*/
+
+.dashboard-content{
+
+    flex:1;
+
+    padding:30px;
+
+}
+
+
+
+/*====================================
+SIDEBAR
+====================================*/
+
+.sidebar{
+
+    width:250px;
+
+    background:#16212d;
+
+    color:#ffffff;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/*====================================
+LOGO
+====================================*/
+
+.sidebar-logo{
+
+    padding:25px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.sidebar-logo img{
+
+    width:120px;
+
+    filter:brightness(0) invert(1);
+
+}
+
+/*====================================
+SELLER TITLE
+====================================*/
+
+.seller-title{
+
+    padding:20px 25px;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    color:#d5dbe3;
+
+}
+
+/*====================================
+MENU
+====================================*/
+
+.sidebar-menu{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.sidebar-menu li{
+
+    margin:5px 12px;
+
+}
+
+.sidebar-menu li a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:14px 16px;
+
+    color:#d9d9d9;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+/* Hover */
+
+.sidebar-menu li a:hover{
+
+    background:#243446;
+
+    color:#ffffff;
+
+}
+
+/* Active */
+
+.sidebar-menu li.active a{
+
+    background:#243446;
+
+    color:#ffffff;
+
+    font-weight:600;
+
+}
+
+/*====================================
+ICONS
+====================================*/
+
+.sidebar-menu .material-symbols-outlined{
+
+    font-size:22px;
+
+    color:#ffffff;
+
+}
+
+/*====================================
+LOGOUT
+====================================*/
+
+.sidebar-logout{
+
+    margin-top:auto;
+
+    padding:20px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.sidebar-logout a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#d9d9d9;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+}
+
+.sidebar-logout a:hover{
+
+    color:#ffffff;
+
+}
+
+
+
+
+
+/*==========================
+SELLER HEADER
+==========================*/
+
+.seller-header{
+    height:75px;
+    background:#ffffff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 35px;
+    border-bottom:1px solid #e8e8e8;
+}
+
+.header-left{
+    display:flex;
+    align-items:center;
+}
+
+.menu-icon{
+    font-size:34px !important;
+    color:#444 !important;
+    cursor:pointer;
+}
+
+.header-right{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.support{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:15px;
+    color:#444;
+}
+
+.support .material-symbols-outlined{
+    font-size:22px !important;
+}
+
+.notification{
+    font-size:24px !important;
+    color:#444;
+    cursor:pointer;
+}
+
+.profile-icon{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.profile-icon .material-symbols-outlined{
+    font-size:34px !important;
+    color:#555;
+}
+
+
+
+
+.page-title{
+    font-size:32px;
+    font-weight:600;
+    color:#222;
+    margin-bottom:25px;
+}
+
+.orders-container{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+
+
+
+
+
+/*========================================
+ORDERS FILTER
+========================================*/
+.orders-filter{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:10px;
+    flex-wrap:wrap;
+}
+
+
+
+/* Common Filter Box */
+
+.filter-item{
+    height:42px;
+    border:1px solid #e4e4e4;
+    border-radius:6px;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    
+}
+
+
+/* Dropdown */
+
+.order-filter{
+    width:350px;
+}
+
+/*=========================
+All Orders Dropdown
+=========================*/
+
+
+.order-filter select{
+    width:100%;
+    height:100%;
+    border:none;
+    outline:none;
+    padding:0 14px;
+    font-size:14px;
+    background:transparent;
+    cursor:pointer;
+}
+
+
+/*=========================
+Start Date
+=========================*/
+.date-box{
+    width:250px;
+    display:flex;
+    align-items:center;
+    padding:0 12px;
+    gap:8px;
+}
+
+
+.date-box .material-symbols-outlined{
+    font-size:20px;
+    color:#777;
+}
+/* 
+.date-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:14px;
+    background:transparent;
+} */
+.date-box input{
+    flex:1;
+    border:none;
+    outline:none;
+    font-size:14px;
+    background:transparent;
+    
+}
+
+
+
+.date-box input::placeholder{
+    color:#888;
+}
+
+/*=========================
+TO BOX
+=========================*/
+
+.to-box{
+    width:45px;
+    height:42px;
+    border:1px solid #e4e4e4;
+    border-radius:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+    color:#555;
+    background:#fff;
+}
+
+/*=========================
+End Date
+=========================*/
+
+.search-box{
+    width:230px;
+}
+
+.search-box input{
+    width:100%;
+    height:100%;
+    border:none;
+    outline:none;
+    padding:0 14px;
+    font-size:14px;
+}
+
+.search-box input::placeholder{
+    color:#999;
+}
+
+
+
+
+.to-text{
+    width:20px;
+    text-align:center;
+    font-size:15px;
+    color:#444;
+    font-weight:500;
+}
+
+
+/*==================================
+Orders Table
+==================================*/
+
+.orders-table{
+
+margin-top:25px;
+
+overflow-x:auto;
+
+}
+
+.orders-table table{
+
+width:100%;
+
+border-collapse:collapse;
+
+background:#fff;
+
+}
+
+.orders-table thead{
+
+border-bottom:1px solid #ececec;
+
+}
+
+.orders-table th{
+
+padding:18px 16px;
+
+text-align:left;
+
+font-size:14px;
+
+font-weight:600;
+
+color:#333;
+
+}
+
+.orders-table td{
+
+padding:18px 16px;
+
+font-size:14px;
+
+color:#555;
+
+border-bottom:1px solid #f2f2f2;
+
+}
+
+.orders-table tbody tr:hover{
+
+background:#fafafa;
+
+transition:.3s;
+
+}
+
+
+
+
+/*==================================
+STATUS BADGES
+==================================*/
+
+.status{
+
+    display:inline-block;
+
+    padding:6px 14px;
+
+    font-size:12px;
+
+    font-weight:500;
+
+    border-radius:5px;
+
+    text-align:center;
+
+}
+
+/* Processing */
+
+.processing{
+
+    background:#FFF3D9;
+
+    color:#C68600;
+
+}
+
+/* Shipped */
+
+.shipped{
+
+    background:#E5F0FF;
+
+    color:#2F73D9;
+
+}
+
+/* Delivered */
+
+.delivered{
+
+    background:#E7F8EA;
+
+    color:#2E9B46;
+
+}
+
+/* Cancelled */
+
+.cancelled{
+
+    background:#FFE7E7;
+
+    color:#D83C3C;
+
+}
+
+
+
+/*==================================
+VIEW BUTTON
+==================================*/
+
+.view-btn{
+
+    width:70px;
+
+    height:34px;
+
+    background:#ffffff;
+
+    border:1px solid #E5E5E5;
+
+    border-radius:6px;
+
+    font-size:13px;
+
+    color:#444;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+/* Hover */
+
+.view-btn:hover{
+
+    background:#16212d;
+
+    color:#ffffff;
+
+    border-color:#16212d;
+
+}
+
+
+
+
+/*========================================
+TABLET VIEW (1024px)
+========================================*/
+
+@media (max-width:1024px){
+
+    /* Sidebar */
+
+    .sidebar{
+        width:220px;
+    }
+
+    .sidebar-logo img{
+        width:100px;
+    }
+
+    /* Dashboard */
+
+    .dashboard-content{
+        padding:20px;
+    }
+
+    .page-title{
+        font-size:28px;
+    }
+
+    /* Header */
+
+    .seller-header{
+        padding:0 20px;
+    }
+
+    .header-right{
+        gap:18px;
+    }
+
+    /* Filter */
+
+    .orders-filter{
+        gap:10px;
+    }
+
+    .order-filter{
+        width:220px;
+    }
+
+    .date-box{
+        width:170px;
+    }
+
+    .search-box{
+        width:180px;
+    }
+
+    /* Table */
+
+    .orders-table{
+        overflow-x:auto;
+    }
+
+    .orders-table table{
+        min-width:900px;
+    }
+
+}
+
+
+
+
+
+/*==================================
+MOBILE RESPONSIVE
+==================================*/
+
+@media (max-width:768px){
+
+/* Layout */
+
+.dashboard-container{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:80px;
+    display:flex;
+}
+
+/* Hide Seller Title */
+
+.seller-title{
+    display:none;
+}
+
+/* Center Logo */
+
+.sidebar-logo{
+    padding:18px 10px;
+    text-align:center;
+}
+
+.sidebar-logo img{
+    width:55px;
+}
+
+/* Hide Menu Text */
+
+.sidebar-menu li a{
+    justify-content:center;
+    padding:15px;
+    gap:0;
+}
+
+.sidebar-menu li a span:last-child{
+    display:none;
+}
+
+/* Hide Logout Text */
+
+.sidebar-logout a{
+    justify-content:center;
+}
+
+.sidebar-logout a span:last-child{
+    display:none;
+}
+
+/* Main */
+
+.main-content{
+    width:calc(100% - 80px);
+}
+
+/* Header */
+
+.seller-header{
+    padding:0 15px;
+}
+
+.support span:last-child{
+    display:none;
+}
+
+.header-right{
+    gap:15px;
+}
+
+/* Content */
+
+.dashboard-content{
+    padding:15px;
+}
+
+.page-title{
+    font-size:26px;
+}
+
+.orders-container{
+    padding:15px;
+}
+
+/* Filters */
+
+.orders-filter{
+    flex-direction:column;
+    align-items:stretch;
+    gap:12px;
+}
+
+.order-filter,
+.filter-item,
+.date-box,
+.search-box,
+.to-box{
+    width:100%;
+}
+
+/* Table */
+
+.orders-table{
+    overflow-x:auto;
+}
+
+.orders-table table{
+    min-width:900px;
+}
+
+.orders-table th,
+.orders-table td{
+    font-size:13px;
+    padding:14px 12px;
+}
+
+.status{
+    font-size:11px;
+    padding:5px 10px;
+}
+
+.view-btn{
+    width:60px;
+    height:30px;
+    font-size:12px;
+}
+
+}

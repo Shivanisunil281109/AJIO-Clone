@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Product | AJIO Seller</title>
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/create-product.css">
+
+    <!-- <link rel="stylesheet" href="css/seller.css"> -->
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- ==========================
+             SIDEBAR
+        ========================== -->
+
+        <aside class="sidebar">
+
+            
+     
+
+    <!-- Logo -->
+
+    <div class="sidebar-logo">
+
+        <img
+            src="https://assets-jiocdn.ajio.com/static/img/Ajio-Logo.svg"
+            alt="AJIO Logo">
+
+    </div>
+
+    <!-- Seller Name -->
+
+    <div class="seller-title">
+
+        AJIO Seller
+
+    </div>
+
+    <!-- Menu -->
+
+    <ul class="sidebar-menu">
+
+<li>
+
+    <a href="dashboard.html">
+
+        <span class="material-symbols-outlined">
+            home
+        </span>
+
+        Dashboard
+
+    </a>
+
+</li>
+
+<li class="active">
+
+    <a href="create-product.html">
+
+        <span class="material-symbols-outlined">
+            add_box
+        </span>
+
+        Create Product
+
+    </a>
+
+</li>
+
+
+
+
+
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    inventory_2
+                </span>
+
+                Products
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="orders.html">
+
+                <span class="material-symbols-outlined">
+                    receipt_long
+                </span>
+
+                Orders
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    assignment_return
+                </span>
+
+                Returns
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    payments
+                </span>
+
+                Payments
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="profit.html">
+
+                <span class="material-symbols-outlined">
+                    monitoring
+                </span>
+
+                Profit
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+
+                Settings
+
+            </a>
+
+        </li>
+
+    </ul>
+
+    <!-- Logout -->
+
+    <div class="sidebar-logout">
+
+        <!-- <a href="pages/login.html"> -->
+<a href="../../pages/login.html"></a>
+            <span class="material-symbols-outlined">
+                logout
+            </span>
+
+            Logout
+
+        </a>
+
+    </div>
+
+</aside>
+
+
+
+
+
+
+
+<!-- 
+        <header class="top-header">
+
+        </header> -->
+
+
+
+
+
+
+
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <!-- Header -->
+
+
+<!--==========================
+Seller Header
+===========================-->
+
+<!--==========================
+Seller Header
+===========================-->
+
+<header class="seller-header">
+
+    <div class="header-left">
+
+        <span class="material-symbols-outlined menu-icon">
+            menu
+        </span>
+
+    </div>
+
+    <div class="header-right">
+
+<div class="support">
+    <span class="material-symbols-outlined">
+        headset_mic
+    </span>
+
+    <span>Seller Support</span>
+</div> 
+
+
+
+        <span class="material-symbols-outlined notification">
+            notifications
+        </span>
+
+        <div class="profile-icon">
+
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+
+        </div>
+
+
+
+    </div>
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ==========================
+                 CREATE PRODUCT CONTENT
+            ========================== -->
+
+            <section class="dashboard-content">
+
+                <!-- Page Heading -->
+
+                <h1 class="page-title">
+                    Create Product
+                </h1>
+
+                <!-- Main Container -->
+
+                <div class="create-product-container">
+
+                    <!-- ======================
+                         LEFT SIDE
+                    ======================= -->
+<div class="product-form">
+
+    <!--==========================
+    PRODUCT INFORMATION
+    ===========================-->
+
+    <h2 class="form-heading">
+        Product Information
+    </h2>
+
+
+
+<!--==========================
+PRODUCT NAME
+===========================-->
+
+<div class="form-group">
+
+    <label for="product-name">
+        Product Name
+    </label>
+
+    <input
+        type="text"
+        id="product-name"
+        placeholder="Enter Product Name">
+
+</div>
+
+
+
+
+
+
+
+
+<!--==========================
+CATEGORY
+===========================-->
+
+<div class="form-group">
+
+    <label for="category">
+        Category
+    </label>
+
+    <select id="category">
+
+        <option selected disabled>
+            Select Category
+        </option>
+
+        <option>Men</option>
+
+        <option>Women</option>
+
+        <option>Kids</option>
+
+        <option>Beauty</option>
+
+        <option>Home & Kitchen</option>
+
+        <option>Accessories</option>
+
+        <option>Footwear</option>
+
+    </select>
+
+</div>
+
+<!--==========================
+BRAND
+===========================-->
+
+<div class="form-group">
+
+    <label for="brand">
+        Brand
+    </label>
+
+    <select id="brand">
+
+        <option selected disabled>
+            Select Brand
+        </option>
+
+        <option>Nike</option>
+
+        <option>Puma</option>
+
+        <option>Adidas</option>
+
+        <option>US Polo</option>
+
+        <option>Levis</option>
+
+        <option>Buda Jeans Co.</option>
+
+        <option>AJIO</option>
+
+    </select>
+
+</div>
+
+
+
+
+
+
+
+<!--==========================
+PRICE SECTION
+===========================-->
+
+<div class="price-row">
+
+    <!-- Selling Price -->
+
+    <div class="form-group">
+
+        <label for="selling-price">
+            Selling Price (₹)
+        </label>
+
+        <input
+            type="number"
+            id="selling-price"
+            placeholder="Enter selling price">
+
+    </div>
+
+    <!-- Discount Price -->
+
+    <div class="form-group">
+
+        <label for="discount-price">
+            Discount Price (₹)
+        </label>
+
+        <input
+            type="number"
+            id="discount-price"
+            placeholder="Enter discount price">
+
+    </div>
+
+</div>
+
+
+
+
+<!--==========================
+STOCK QUANTITY
+===========================-->
+
+<div class="form-group">
+
+    <label for="stock">
+
+        Stock Quantity
+
+    </label>
+
+    <input
+        type="number"
+        id="stock"
+        placeholder="Enter stock quantity">
+
+</div>
+
+
+
+
+
+
+<!--==========================
+DESCRIPTION
+===========================-->
+
+<!--==========================
+DESCRIPTION
+===========================-->
+
+<div class="form-group">
+
+    <label>Description</label>
+
+    <!-- Toolbar -->
+
+    <div class="editor-toolbar">
+
+        <button type="button"><b>B</b></button>
+
+        <button type="button"><i>I</i></button>
+
+        <button type="button"><u>U</u></button>
+
+        <button type="button">•</button>
+
+        <button type="button">1.</button>
+
+        <button type="button">🔗</button>
+
+    </div>
+
+    <!-- Description -->
+
+    <textarea
+        placeholder="Enter product description"></textarea>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+                    
+
+
+
+
+
+                    <!-- ======================
+                         RIGHT SIDE
+                    ======================= -->
+
+                    <div class="product-upload">
+
+                        <!--==========================
+PRODUCT STATUS
+===========================-->
+
+
+<!--==========================
+IMAGE PREVIEW
+===========================-->
+
+<!-- Product Images -->
+
+<div class="upload-section">
+
+    <h3>Product Images</h3>
+
+    <div class="upload-box">
+
+        <span class="material-symbols-outlined upload-icon">
+            cloud_upload
+        </span>
+
+        <p class="upload-title">
+            Click to upload images
+        </p>
+
+        <p class="upload-subtitle">
+            or drag and drop
+        </p>
+
+        <small>(Max 5 images)</small>
+
+        <input type="file" multiple hidden>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="status-box">
+
+    <label for="status">
+
+        Product Status
+
+    </label>
+
+    <select id="status">
+
+        <option selected>Active</option>
+
+        <option>Inactive</option>
+
+        <option>Out of Stock</option>
+
+    </select>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--==========================
+ACTION BUTTONS
+===========================-->
+
+<div class="action-buttons">
+
+    <button type="reset" class="reset-btn">
+        Reset
+    </button>
+
+    <button type="submit" class="submit-btn">
+        Submit Product
+    </button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

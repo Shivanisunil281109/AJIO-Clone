@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seller Dashboard | AJIO Clone</title>
+
+    <link rel="stylesheet" href="css/seller.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+
+   <aside class="sidebar">
+
+    <!-- Logo -->
+
+    <div class="sidebar-logo">
+
+        <img
+            src="https://assets-jiocdn.ajio.com/static/img/Ajio-Logo.svg"
+            alt="AJIO Logo">
+
+    </div>
+
+    <!-- Seller Name -->
+
+    <div class="seller-title">
+
+        AJIO Seller
+
+    </div>
+
+    <!-- Menu -->
+
+    <ul class="sidebar-menu">
+
+        <li class="active">
+ 
+
+<a href="#">
+    <span class="material-symbols-outlined">
+        home
+    </span>
+    Dashboard
+</a>
+
+        </li>
+
+
+
+
+
+        <li>
+
+            <a href="create-product.html">
+
+                <span class="material-symbols-outlined">
+                    add_box
+                </span>
+
+                Create Product
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    inventory_2
+                </span>
+
+                Products
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="orders.html">
+
+                <span class="material-symbols-outlined">
+                    receipt_long
+                </span>
+
+                Orders
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    assignment_return
+                </span>
+
+                Returns
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    payments
+                </span>
+
+                Payments
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="profit.html">
+
+                <span class="material-symbols-outlined">
+                    monitoring
+                </span>
+
+                Profit
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+
+                Settings
+
+            </a>
+
+        </li>
+
+    </ul>
+
+    <!-- Logout -->
+
+    <div class="sidebar-logout">
+
+        <a href="login.html">
+
+            <span class="material-symbols-outlined">
+                logout
+            </span>
+
+            Logout
+
+        </a>
+
+    </div>
+
+</aside>
+
+
+
+
+
+
+
+<!-- 
+        <header class="top-header">
+
+        </header> -->
+
+
+
+
+
+
+
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <!-- Header -->
+
+
+<!--==========================
+Seller Header
+===========================-->
+
+<header class="seller-header">
+
+    <div class="header-left">
+
+        <span class="material-symbols-outlined menu-icon">
+            menu
+        </span>
+
+    </div>
+
+    <div class="header-right">
+
+<div class="support">
+    <span class="material-symbols-outlined">
+        headset_mic
+    </span>
+
+    <span>Seller Support</span>
+</div> 
+
+
+
+        <span class="material-symbols-outlined notification">
+            notifications
+        </span>
+
+        <div class="profile-icon">
+
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+
+        </div>
+
+
+
+    </div>
+
+</header>
+
+
+
+
+
+
+
+
+<section class="dashboard-content">
+
+    <h2 class="page-title">
+        Dashboard
+    </h2>
+
+    <div class="dashboard-cards">
+
+        <!-- Card 1 -->
+
+        <div class="card">
+
+            <h4>Total Products</h4>
+
+            <h2>152</h2>
+
+            <a href="#">View all products</a>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="card">
+
+            <h4>Sold Products</h4>
+
+            <h2>98</h2>
+
+            <a href="#">View sold products</a>
+
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="card">
+
+            <h4>Total Orders</h4>
+
+            <h2>245</h2>
+
+            <a href="#">View all orders</a>
+
+        </div>
+
+        <!-- Card 4 -->
+
+        <div class="card">
+
+            <h4>Total Revenue</h4>
+
+            <h2>₹1,25,430</h2>
+
+            <a href="#">View all payments</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Dashboard -->
+
+        <section class="dashboard-content">
+<!--==========================
+DASHBOARD BOTTOM
+===========================-->
+
+<div class="dashboard-bottom">
+
+    <!-- Latest Orders -->
+
+    <div class="orders-panel">
+
+        <div class="panel-header">
+
+            <h3>Latest Orders</h3>
+
+            <a href="#">View All</a>
+
+        </div>
+
+        <table class="orders-table">
+
+            <tbody>
+
+                <tr>
+
+                    <td>#ORD12345</td>
+
+                    <td>Soniya Datarkar</td>
+
+                    <td>₹1,499</td>
+
+                    <td class="processing">Processing</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>#ORD12344</td>
+
+                    <td>Neha Patel</td>
+
+                    <td>₹999</td>
+
+                    <td class="shipped">Shipped</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>#ORD12343</td>
+
+                    <td>Amit Verma</td>
+
+                    <td>₹2,299</td>
+
+                    <td class="delivered">Delivered</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>#ORD12342</td>
+
+                    <td>Pooja Singh</td>
+
+                    <td>₹1,199</td>
+
+                    <td class="processing">Processing</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>#ORD12341</td>
+
+                    <td>Karan Mehta</td>
+
+                    <td>₹799</td>
+
+                    <td class="cancelled">Cancelled</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- Top Selling Products -->
+
+    
+<!-- Top Selling Products -->
+
+<div class="products-panel">
+
+    <div class="panel-header">
+
+        <h3>Top Selling Products</h3>
+
+        <a href="#">View All</a>
+
+    </div>
+
+    <!-- Product 1 -->
+
+    <div class="product-item">
+
+        <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20260511/tg0D/6a01bba414d0c21719d110d7/buda_jeans_co_black_men_regular_fit_polo-neck_t-shirt.jpg" alt="">
+
+        <div class="product-info">
+
+            <h4>Men Solid Shirt</h4>
+
+        </div>
+
+        <div class="sold-info">
+
+            <span>120</span>
+
+            <small>Sold</small>
+
+        </div>
+
+        <span class="price">₹999</span>
+
+    </div>
+
+    <!-- Product 2 -->
+
+    <div class="product-item">
+
+        <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20260511/BLIR/6a01c69f14d0c21719d2899a/svaraa_orange_women_printed_2-piece_straight_kurta_set.jpg" alt="">
+
+        <div class="product-info">
+
+            <h4>Women Printed Kurta</h4>
+
+        </div>
+
+        <div class="sold-info">
+
+            <span>98</span>
+
+            <small>Sold</small>
+
+        </div>
+
+        <span class="price">₹899</span>
+
+    </div>
+
+    <!-- Product 3 -->
+
+    <div class="product-item">
+
+        <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20230623/AA8r/6495d398a9b42d15c9cb61ed/produkt_by_jack_%26_jones_grey_men_lightly_washed_slim_fit_jeans.jpg" alt="">
+
+        <div class="product-info">
+
+            <h4>Men Slim Fit Jeans</h4>
+
+        </div>
+
+        <div class="sold-info">
+
+            <span>85</span>
+
+            <small>Sold</small>
+
+        </div>
+
+        <span class="price">₹1,499</span>
+
+    </div>
+
+    <!-- Product 4 -->
+
+    <div class="product-item">
+
+        <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root1/20250720/EXXc/687cc85f6034bf77f0df551c/revangi_lavender_women_regular_fit_top.jpg" alt="">
+
+        <div class="product-info">
+
+            <h4>Women Casual Top</h4>
+
+        </div>
+
+        <div class="sold-info">
+
+            <span>72</span>
+
+            <small>Sold</small>
+
+        </div>
+
+        <span class="price">₹699</span>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+
+</html>

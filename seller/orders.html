@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Orders | AJIO Seller</title>
+
+    <!-- Google Material Icons -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <!-- CSS -->
+
+   
+<link rel="stylesheet" href="css/orders.css">
+</head>
+
+<body>
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+ <!-- Logo -->
+
+    <div class="sidebar-logo">
+
+        <img
+            src="https://assets-jiocdn.ajio.com/static/img/Ajio-Logo.svg"
+            alt="AJIO Logo">
+
+    </div>
+
+    <!-- Seller Name -->
+
+    <div class="seller-title">
+
+        AJIO Seller
+
+    </div>
+
+    <!-- Menu -->
+
+    <ul class="sidebar-menu">
+
+       
+ <li> 
+
+<a href="dashboard.html">  
+    <span class="material-symbols-outlined">
+        home
+    </span>
+    Dashboard
+</a>
+
+        </li>
+
+
+
+
+
+        <li>
+
+            <a href="create-product.html">
+
+                <span class="material-symbols-outlined">
+                    add_box
+                </span>
+
+                Create Product
+
+            </a>
+
+        </li>
+
+       
+      <li > 
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    inventory_2
+                </span>
+
+                Products
+
+            </a>
+
+        </li>
+
+
+     <li class="active">
+
+<a href="orders.html">
+
+<span class="material-symbols-outlined">
+
+receipt_long
+
+</span>
+
+Orders
+
+</a>
+
+</li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    assignment_return
+                </span>
+
+                Returns
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    payments
+                </span>
+
+                Payments
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="profit.html">
+
+                <span class="material-symbols-outlined">
+                    monitoring
+                </span>
+
+                Profit
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+
+                Settings
+
+            </a>
+
+        </li>
+
+    </ul>
+
+    <!-- Logout -->
+
+    <div class="sidebar-logout">
+
+        <a href="login.html">
+
+            <span class="material-symbols-outlined">
+                logout
+            </span>
+
+            Logout
+
+        </a>
+
+    </div>
+
+</aside>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Main -->
+
+    <main class="main-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Header -->
+
+        <header class="seller-header">
+
+
+    <div class="header-left">
+
+        <span class="material-symbols-outlined menu-icon">
+            menu
+        </span>
+
+    </div>
+
+    <div class="header-right">
+
+        <div class="support">
+
+            <span class="material-symbols-outlined">
+                headset_mic
+            </span>
+
+            <span>Seller Support</span>
+
+        </div>
+
+        <span class="material-symbols-outlined notification">
+            notifications
+        </span>
+
+        <div class="profile-icon">
+
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+
+        </div>
+
+    </div>
+
+</header>
+       
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Orders Content -->
+
+        <section class="dashboard-content">
+<h1 class="page-title">Orders</h1>
+
+<div class="orders-container">
+
+<!-- ==========================
+Orders Filter
+========================== -->
+
+<div class="orders-filter">
+
+    <!-- All Orders -->
+    <div class="filter-item order-filter">
+        <select>
+            <option>All Orders</option>
+            <option>Processing</option>
+            <option>Shipped</option>
+            <option>Delivered</option>
+            <option>Cancelled</option>
+        </select>
+    </div>
+
+    <!-- Start Date -->
+    <div class="filter-item date-box">
+        <span class="material-symbols-outlined">calendar_month</span>
+        <input type="text" placeholder="Start Date">
+    </div>
+
+    <!-- To -->
+    <div class="to-text">
+        To
+    </div>
+
+    <!-- End Date -->
+    <div class="filter-item date-box">
+        <span class="material-symbols-outlined">calendar_month</span>
+        <input type="text" placeholder="End Date">
+    </div>
+
+    <!-- Search -->
+    <div class="filter-item search-box">
+        <input type="text" placeholder="Search Order">
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--=========================
+Orders Table
+==========================-->
+
+<div class="orders-table">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Order ID</th>
+
+<th>Customer</th>
+
+<th>Date</th>
+
+<th>Amount</th>
+
+<th>Payment</th>
+
+<th>Status</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>#ORD12345</td>
+
+<td>Soniya Datarkar</td>
+
+<td>18 May 2026</td>
+
+<td>₹1,499</td>
+
+<td>COD</td>
+
+<td>
+<span class="status processing">
+Processing
+</span>
+</td>
+
+<td>
+<button class="view-btn">View</button>
+</td>
+
+</tr>
+
+<tr>
+
+<td>#ORD12344</td>
+
+<td>Neha Patel</td>
+
+<td>18 May 2026</td>
+
+<td>₹999</td>
+
+<td>Online</td>
+
+<td>
+<span class="status shipped">
+Shipped
+</span>
+</td>
+
+<td>
+<button class="view-btn">View</button>
+</td>
+
+</tr>
+
+<tr>
+
+<td>#ORD12343</td>
+
+<td>Amit Verma</td>
+
+<td>17 May 2026</td>
+
+<td>₹2,299</td>
+
+<td>Online</td>
+
+<td>
+<span class="status delivered">
+Delivered
+</span>
+</td>
+
+<td>
+<button class="view-btn">View</button>
+</td>
+
+</tr>
+
+<tr>
+
+<td>#ORD12342</td>
+
+<td>Pooja Singh</td>
+
+<td>17 May 2026</td>
+
+<td>₹1,199</td>
+
+<td>COD</td>
+
+<td>
+<span class="status processing">
+Processing
+</span>
+</td>
+
+<td>
+<button class="view-btn">View</button>
+</td>
+
+</tr>
+
+<tr>
+
+<td>#ORD12341</td>
+
+<td>Karan Mehta</td>
+
+<td>16 May 2026</td>
+
+<td>₹799</td>
+
+<td>Online</td>
+
+<td>
+<span class="status cancelled">
+Cancelled
+</span>
+</td>
+
+<td>
+<button class="view-btn">View</button>
+</td>
+
+</tr>
+
+<tr>
+
+<td>#ORD12340</td>
+
+<td>Sneha Kapoor</td>
+
+<td>16 May 2026</td>
+
+<td>₹1,299</td>
+
+<td>Online</td>
+
+<td>
+<span class="status shipped">
+Shipped
+</span>
+</td>
+
+<td>
+<button class="view-btn">View</button>
+</td>
+
+</tr>
+
+<tr>
+
+<td>#ORD12339</td>
+
+<td>Vikram Joshi</td>
+
+<td>15 May 2026</td>
+
+<td>₹899</td>
+
+<td>COD</td>
+
+<td>
+<span class="status delivered">
+Delivered
+</span>
+</td>
+
+<td>
+<button class="view-btn">View</button>
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+</div>
+
+
+
+
+</body>
+
+</html>
