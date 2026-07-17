@@ -1280,33 +1280,84 @@ TABLET VIEW
 
 /* Footer */
 
-
-
 .footer{
     width:100%;
-    margin-top:40px;
-    clear:both;
+    margin-top:30px;
 }
-.footer-bottom{
-    width:100%;
-    box-sizing:border-box;
-    background:#2c4152;
-    padding:35px 50px;
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:35px;
-}
-
 
 .footer-top{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     flex-wrap:wrap;
     gap:30px;
+    padding:25px 20px;
+    box-sizing:border-box;
 }
 
+.feature{
+    width:45%;
+    text-align:center;
+}
+
+.feature i{
+    font-size:35px;
+}
+
+.feature h3{
+    font-size:16px;
+}
+
+/* Service Strip */
+
 .service-strip{
+    width:100%;
+    display:flex;
     flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
     height:auto;
-    padding:20px;
+    padding:25px 20px;
+    box-sizing:border-box;
+}
+
+.service-box{
+    width:45%;
+    justify-content:center;
+}
+
+.service-box span{
+    font-size:15px;
+}
+
+/* Footer Bottom */
+
+.footer-bottom{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    padding:30px;
+    box-sizing:border-box;
+    background:#2c4152;
+}
+
+.footer-column{
+    width:100%;
+}
+
+.footer-column h3{
+    font-size:17px;
+}
+
+.footer-column ul li{
+    margin-bottom:12px;
+}
+
+.footer-column ul li a{
+    font-size:14px;
 }
 
 } 
@@ -1318,3 +1369,237 @@ TABLET VIEW
 
 
 
+
+
+
+
+/*====================================
+        MOBILE VIEW
+=====================================*/
+
+@media (max-width:576px){
+
+/*================ HEADER ================*/
+
+.top-navbar{
+    display:none;
+}
+
+.navbar{
+    padding:12px 15px;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+}
+
+.logo img{
+    width:120px;
+}
+
+.nav-links{
+    width:100%;
+    overflow-x:auto;
+    gap:18px;
+    font-size:14px;
+    white-space:nowrap;
+}
+
+.nav-links::-webkit-scrollbar{
+    display:none;
+}
+
+/* .nav-right{
+    width:100%;
+    padding-right:0;
+    justify-content:space-between;
+} */
+
+
+
+
+.nav-right{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding-right:0;
+}
+
+
+.search-box{
+    flex:1;
+}
+
+
+
+.search-icon{
+    right:15px;
+}
+
+
+/* 
+.search-box{
+    flex:1;
+} */
+.icon-circle{
+    width:38px;
+    height:38px;
+    flex-shrink:0;
+}
+
+.search-box input{
+    width:100%;
+    box-sizing:border-box;
+    padding-right:45px;
+}
+
+.nav-right input{
+    width:100%;
+}
+
+/*================ PROFILE LAYOUT ================*/
+
+.profile-container{
+    width:95%;
+    margin:20px auto;
+    flex-direction:column;
+    gap:20px;
+}
+
+.profile-sidebar{
+    width:100%;
+}
+
+.profile-content{
+    width:100%;
+}
+
+/*================ PERSONAL INFO ================*/
+
+.personal-information{
+    padding:20px;
+}
+
+.personal-information h2{
+    font-size:24px;
+    margin-bottom:25px;
+}
+
+.form-row{
+    flex-direction:column;
+    gap:18px;
+    margin-bottom:20px;
+}
+
+.form-group{
+    width:100%;
+}
+
+.form-group input{
+    width:100%;
+    box-sizing:border-box;
+}
+
+.gender-options{
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.dob-group{
+    max-width:100%;
+}
+
+.dob-group input{
+    width:100%;
+}
+
+.save-btn button{
+    width:100%;
+}
+
+/*================ PASSWORD ================*/
+
+.password-heading{
+    font-size:24px;
+}
+
+.password-row{
+    flex-direction:column;
+    gap:18px;
+}
+
+.password-group{
+    width:100%;
+}
+
+.password-group input{
+    width:100%;
+    box-sizing:border-box;
+}
+
+.update-btn{
+    float:none;
+    width:100%;
+}
+
+.clear{
+    display:none;
+}
+
+/*================ SERVICE STRIP ================*/
+
+.service-strip{
+    flex-direction:column;
+    height:auto;
+    padding:25px 0;
+    gap:25px;
+}
+
+.service-box{
+    justify-content:center;
+}
+
+/*================ FOOTER ================*/
+
+.footer-top{
+    flex-direction:column;
+    gap:25px;
+    text-align:center;
+}
+
+.footer-bottom{
+    width:100%;
+    box-sizing:border-box;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+    padding:30px 20px;
+}
+
+.footer-column{
+    text-align:center;
+}
+
+.footer-column h3{
+    margin-bottom:15px;
+}
+
+.footer-column ul{
+    padding:0;
+}
+
+.footer-column li{
+    margin-bottom:10px;
+}
+
+/*================ LUXE CARD ================*/
+
+.luxe-card{
+    margin:20px;
+}
+
+.logout-section{
+    margin:20px;
+}
+
+}
