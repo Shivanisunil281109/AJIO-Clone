@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Orders | AJIO Seller</title>
+
+    <!-- Google Material Icons -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <!-- CSS -->
+
+   
+
+ <link rel="stylesheet" href="css/profit.css">
+</head>
+
+<body>
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+ <!-- Logo -->
+
+    <div class="sidebar-logo">
+
+        <img
+            src="https://assets-jiocdn.ajio.com/static/img/Ajio-Logo.svg"
+            alt="AJIO Logo">
+
+    </div>
+
+    <!-- Seller Name -->
+
+    <div class="seller-title">
+
+        AJIO Seller
+
+    </div>
+
+    <!-- Menu -->
+
+    <ul class="sidebar-menu">
+
+       
+ <li> 
+
+<a href="dashboard.html">  
+    <span class="material-symbols-outlined">
+        home
+    </span>
+    Dashboard
+</a>
+
+        </li>
+
+
+
+
+
+        <li>
+
+            <a href="create-product.html">
+
+                <span class="material-symbols-outlined">
+                    add_box
+                </span>
+
+                Create Product
+
+            </a>
+
+        </li>
+
+       
+      <li > 
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    inventory_2
+                </span>
+
+                Products
+
+            </a>
+
+        </li>
+
+
+     <li>
+
+<a href="orders.html">
+
+<span class="material-symbols-outlined">
+
+receipt_long
+
+</span>
+
+Orders
+
+</a>
+
+</li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    assignment_return
+                </span>
+
+                Returns
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    payments
+                </span>
+
+                Payments
+
+            </a>
+
+        </li>
+
+         <li class="active">
+
+            <a href="profit.html">
+
+                <span class="material-symbols-outlined">
+                    monitoring
+                </span>
+
+                Profit
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="#">
+
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+
+                Settings
+
+            </a>
+
+        </li>
+
+    </ul>
+
+    <!-- Logout -->
+
+    <div class="sidebar-logout">
+
+        <a href="login.html">
+
+            <span class="material-symbols-outlined">
+                logout
+            </span>
+
+            Logout
+
+        </a>
+
+    </div>
+
+</aside>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+ <!-- Main -->
+
+    <main class="main-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Header -->
+
+        <header class="seller-header">
+
+
+    <div class="header-left">
+
+        <span class="material-symbols-outlined menu-icon">
+            menu
+        </span>
+
+    </div>
+
+    <div class="header-right">
+
+        <div class="support">
+
+            <span class="material-symbols-outlined">
+                headset_mic
+            </span>
+
+            <span>Seller Support</span>
+
+        </div>
+
+        <span class="material-symbols-outlined notification">
+            notifications
+        </span>
+
+        <div class="profile-icon">
+
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+
+        </div>
+
+    </div>
+
+</header>
+       
+
+
+
+
+
+
+
+
+   
+
+
+
+
+      
+<section class="dashboard-content">
+<!-- ==========================
+Profit Heading
+========================== -->
+
+<div class="profit-header">
+
+    <h1 class="page-title">
+        Profit Overview
+    </h1>
+
+    <div class="month-filter">
+
+        <select>
+
+            <option>This Month</option>
+            <option>Last Month</option>
+            <option>Last 3 Months</option>
+            <option>This Year</option>
+
+        </select>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Revenue Statistics -->
+<div class="profit-cards">  
+
+<div class="profit-card">
+
+    <h4>Total Revenue</h4>
+
+    <h2>₹1,25,430</h2>
+
+    <p class="growth positive">
+        <span class="material-symbols-outlined">
+            trending_up
+        </span>
+        12.5% from last month
+    </p>
+
+</div>
+
+
+
+
+<div class="profit-card">
+
+    <h4>Total Expenses</h4>
+
+    <h2>₹45,230</h2>
+
+    <p class="growth negative">
+        <span class="material-symbols-outlined">
+            trending_down
+        </span>
+        8.3% from last month
+    </p>
+
+</div>
+    
+
+
+
+
+
+
+<div class="profit-card">
+
+    <h4>Net Profit</h4>
+
+    <h2>₹80,200</h2>
+
+    <p class="growth positive">
+        <span class="material-symbols-outlined">
+            trending_up
+        </span>
+        15.7% from last month
+    </p>
+
+</div>
+
+
+
+
+
+
+
+<div class="profit-card">
+
+    <h4>Profit Margin</h4>
+
+    <h2>64.02%</h2>
+
+    <p class="growth positive">
+        <span class="material-symbols-outlined">
+            trending_up
+        </span>
+        4.2% from last month
+    </p>
+
+</div>
+
+
+   
+
+
+</div>
+
+<!--==================================
+Revenue Section
+===================================-->
+<!--==================================
+Bottom Cards
+===================================-->
+
+<div class="profit-bottom">
+
+    <!-- Revenue Card -->
+
+    <div class="revenue-card">
+
+        <h3>Revenue Overview</h3>
+
+        
+
+<div class="chart-box">
+<div class="graph-wrapper">
+
+        <!-- Left Side Numbers -->
+
+        <div class="y-axis">
+
+            <span>150K</span>
+            <span>125K</span>
+            <span>100K</span>
+            <span>75K</span>
+            <span>50K</span>
+            <span>25K</span>
+            <span>0</span>
+
+        </div>
+
+   <div class="graph">
+
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+            <div class="line line4"></div>
+            <div class="line line5"></div>
+            <div class="line line6"></div>
+</div>
+        <!-- Graph Line -->
+ <svg
+               viewBox="0 0 500 250"
+                preserveAspectRatio="none">
+
+     
+
+
+
+ 
+
+<polygon
+fill="rgba(76,124,245,.18)"
+points="
+35,225
+110,165
+185,95
+260,135
+335,95
+410,65
+485,20
+485,280
+35,280"/>
+
+<polyline
+fill="none"
+stroke="#4C7CF5"
+stroke-width="5"
+stroke-linejoin="round"
+stroke-linecap="round"
+points="
+35,225
+110,165
+185,95
+260,135
+335,95
+410,65
+485,20"/>   
+
+
+
+
+
+            <!-- Dots -->
+
+            
+
+       
+
+
+
+
+
+<circle cx="35" cy="225" r="6" fill="#3B6EF5"/>
+<circle cx="110" cy="165" r="6" fill="#3B6EF5"/>
+<circle cx="185" cy="95" r="6" fill="#3B6EF5"/>
+<circle cx="260" cy="135" r="6" fill="#3B6EF5"/>
+<circle cx="335" cy="95" r="6" fill="#3B6EF5"/>
+<circle cx="410" cy="65" r="6" fill="#3B6EF5"/>
+<circle cx="485" cy="20" r="6" fill="#3B6EF5"/>
+
+
+
+
+
+</svg> 
+</div>
+    
+
+    <div class="months">
+        <span>Jan</span>
+        <span>Feb</span>
+        <span>Mar</span>
+        <span>Apr</span>
+        <span>May</span>
+        <span>Jun</span>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    <!-- </div> -->
+
+
+    <!-- Top Selling Products -->
+
+    <div class="top-products-card">
+
+        <h3>Top Selling Products</h3>
+
+        <div class="products-content">
+
+            <!-- Pie Chart -->
+
+            <div class="pie-chart">
+
+                
+
+            </div>
+
+
+            <!-- Product List -->
+
+            <div class="product-list">
+
+                <div class="product-item">
+
+                    <span class="dot black"></span>
+
+                    <span class="name">
+                        Men Solid Shirt
+                    </span>
+
+                    <span class="price">
+                        ₹40,430 (32%)
+                    </span>
+
+                </div>
+
+                <div class="product-item">
+
+                    <span class="dot blue"></span>
+
+                    <span class="name">
+                        Women Printed Kurta
+                    </span>
+
+                    <span class="price">
+                        ₹28,750 (23%)
+                    </span>
+
+                </div>
+
+                <div class="product-item">
+
+                    <span class="dot lightblue"></span>
+
+                    <span class="name">
+                        Men Slim Fit Jeans
+                    </span>
+
+                    <span class="price">
+                        ₹22,300 (18%)
+                    </span>
+
+                </div>
+
+                <div class="product-item">
+
+                    <span class="dot sky"></span>
+
+                    <span class="name">
+                        Women Casual Top
+                    </span>
+
+                    <span class="price">
+                        ₹16,250 (13%)
+                    </span>
+
+                </div>
+
+                <div class="product-item">
+
+                    <span class="dot gray"></span>
+
+                    <span class="name">
+                        Others
+                    </span>
+
+                    <span class="price">
+                        ₹17,700 (14%)
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+</div>
+
+
+
+
+</body>
+
+</html>
