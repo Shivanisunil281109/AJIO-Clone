@@ -504,8 +504,8 @@ Revenue Statistics
 
 .profit-card h4{
 
-    font-size:15px;
-
+   
+font-size:15px;
     color:#666;
 
     font-weight:500;
@@ -516,8 +516,8 @@ Revenue Statistics
 
 .profit-card h2{
 
-    font-size:32px;
-
+    /* font-size:32px; */
+ font-size:30px;
     font-weight:700;
 
     color:#111;
@@ -1202,7 +1202,8 @@ MOBILE VIEW (576px)
     align-items:center;
 }
 .profit-card h2{
-    font-size:28px;
+    font-size:26px;
+  
 }
 
 /* Revenue */
